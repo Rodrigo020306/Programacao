@@ -16,5 +16,5 @@ void main()
     NotaFinal= (0.4*T1)+(0.6*T2);
 
     // 4. Apresentar o resultado obtido para NF
-    printf("Nota Final: %f",NotaFinal);
+    printf("Nota Final: %.2f",NotaFinal);
 }

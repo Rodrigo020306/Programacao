@@ -14,25 +14,30 @@ void main()
     if (T1>8.5 && T2>9)
     {    
         //nota final -> (T1+T2)/2
-        float notaFimal=(T1+T2)/2;
+        float notaFinal=(T1+T2)/2;
         //nota final >=10 -> aprovado
-        if (notaFimal>=10)
+        if (notaFinal>=10)
         {
             printf("Aluno Aprovado");
-            if (notaFimal>=17)
+            if (notaFinal>=17)
             {
-                printf("Aluno deve fazer defesa oral");
+                printf(" Aluno deve fazer defesa oral");
             }
             else
             {
-                printf("Aluno nao precisa defesa oral");
+                printf(" Aluno nao precisa defesa oral");
             }
             
         }
-        //caso nota final < 10
         else
         {
-            printf("Aluno reprovado");
+            printf("Aluno reprovado mas as notas sao supriores as notas minimas");
         }
+        
+    }
+    //caso nota final < 10
+    else
+    {
+        printf("Aluno reprovado");
     }
 }
